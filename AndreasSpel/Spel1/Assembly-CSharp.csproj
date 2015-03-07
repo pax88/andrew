@@ -46,11 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraSC.cs" />
-     <Compile Include="Assets\Scripts\Game.cs" />
      <Compile Include="Assets\Scripts\PlayerDead.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
-     <Compile Include="Assets\Scripts\StartText.cs" />
+     <Compile Include="Assets\Scripts\SMALL\CameraSC.cs" />
+     <Compile Include="Assets\Scripts\SMALL\Deadpar.cs" />
+     <Compile Include="Assets\Scripts\SMALL\Game.cs" />
+     <Compile Include="Assets\Scripts\SMALL\StartText.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>

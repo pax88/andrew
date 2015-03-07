@@ -5,6 +5,7 @@ public class CameraSC : MonoBehaviour {
 	public Transform Player;
 	public float Camerah;
 	public float Camerad;
+	public Deadpar Deadpar;
 
 	// Use this for initialization
 	void Start () 
@@ -15,8 +16,10 @@ public class CameraSC : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{	
-
-		transform.position = Player.position + new Vector3 (0, Camerah, Camerad);
+		if (Deadpar.IsDead == false)
+		{
+			transform.position = Player.position + new Vector3 (0, Camerah, Camerad);
+		}
 	}
 
 	void FixedUpdate()
