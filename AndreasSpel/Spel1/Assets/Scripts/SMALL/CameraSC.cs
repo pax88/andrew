@@ -6,11 +6,13 @@ public class CameraSC : MonoBehaviour {
 	public float Camerah;
 	public float Camerad;
 	public Deadpar Deadpar;
+	public Transform CameraLookAt;
 
 	// Use this for initialization
 	void Start () 
 	{
-		transform.LookAt (Player);
+		transform.position = Player.position + new Vector3 (0, Camerah, Camerad);
+		transform.LookAt (CameraLookAt);
 	}
 	
 	// Update is called once per frame
@@ -24,6 +26,6 @@ public class CameraSC : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-
+		
 	}
 }

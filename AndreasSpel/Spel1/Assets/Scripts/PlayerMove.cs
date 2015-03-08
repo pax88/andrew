@@ -6,6 +6,7 @@ public class PlayerMove : MonoBehaviour {
 	public float TurnSpeed;
 	public bool TurnRight;
 	public Game Game;
+	public Deadpar Deadpar;
 
 	// Use this for initialization
 	void Start () 
@@ -27,7 +28,7 @@ public class PlayerMove : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		if (Game.GameOn == true) 
+		if (Game.GameOn == true && Deadpar.IsDead == false) 
 		{
 			if (TurnRight == true) 
 			{

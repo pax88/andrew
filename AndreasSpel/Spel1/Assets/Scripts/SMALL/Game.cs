@@ -4,9 +4,11 @@ using System.Collections;
 public class Game : MonoBehaviour {
 	public bool GameOn;
 
+	
 	// Use this for initialization
 	void Start () 
 	{
+		Screen.orientation = ScreenOrientation.LandscapeLeft;
 		GameOn = false;
 	}
 	
