@@ -8,7 +8,7 @@ public class Game : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		Screen.orientation = ScreenOrientation.PortraitUpsideDown;
+		Screen.orientation = ScreenOrientation.Portrait;
 		GameOn = false;
 	}
 	
