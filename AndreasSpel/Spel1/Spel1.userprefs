@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SMALL/Game.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SMALL/CameraSC.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMove.cs" Line="31" Column="53" />
-      <File FileName="Assets/Scripts/SMALL/CameraSC.cs" Line="22" Column="4" />
+      <File FileName="Assets/Scripts/PlayerMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SMALL/CameraSC.cs" Line="32" Column="2" />
       <File FileName="Assets/Scripts/SMALL/StartText.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlayerDead.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SMALL/Deadpar.cs" Line="1" Column="1" />

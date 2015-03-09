@@ -11,6 +11,7 @@ public class CameraSC : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+		Screen.orientation = ScreenOrientation.LandscapeLeft;
 		transform.position = Player.position + new Vector3 (0, Camerah, Camerad);
 		transform.LookAt (CameraLookAt);
 	}

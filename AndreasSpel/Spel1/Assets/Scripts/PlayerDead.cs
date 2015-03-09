@@ -10,7 +10,7 @@ public class PlayerDead : MonoBehaviour {
 	{
 		if (info.tag == "Deadly") {
 			Dead ();
-		} else if (info.tag == "Goal") 
+		} else if (info.tag == "Goal" && Deadpar.IsDead == false) 
 		{
 			Application.LoadLevel(Application.loadedLevel + 1);
 		}

@@ -41,7 +41,7 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
-'Assets/Assets/Fonts/Script/scriptTexttest.cs'
+'Assets/Imported/Fonts/Script/scriptTexttest.cs'
 'Assets/Scripts/PlayerDead.cs'
 'Assets/Scripts/PlayerMove.cs'
 'Assets/Scripts/SMALL/CameraSC.cs'
