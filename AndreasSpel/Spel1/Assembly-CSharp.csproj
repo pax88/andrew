@@ -50,9 +50,9 @@
      <Compile Include="Assets\Scripts\PlayerDead.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\SMALL\CameraSC.cs" />
+     <Compile Include="Assets\Scripts\SMALL\ChangeLevel.cs" />
      <Compile Include="Assets\Scripts\SMALL\Deadpar.cs" />
      <Compile Include="Assets\Scripts\SMALL\Game.cs" />
-     <Compile Include="Assets\Scripts\SMALL\LevelSelect.cs" />
      <Compile Include="Assets\Scripts\SMALL\MenyPlayerSC.cs" />
      <Compile Include="Assets\Scripts\SMALL\StartText.cs" />
      <None Include="Assets\Imported\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />

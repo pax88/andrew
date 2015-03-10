@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SMALL/MenyPlayerSC.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SMALL/ChangeLevel.cs">
     <Files>
-      <File FileName="Assets/Scripts/SMALL/MenyPlayerSC.cs" Line="27" Column="3" />
+      <File FileName="Assets/Scripts/SMALL/MenyPlayerSC.cs" Line="21" Column="25" />
+      <File FileName="Assets/Scripts/SMALL/ChangeLevel.cs" Line="4" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -11,12 +11,23 @@ public class PlayerMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+		if (Application.loadedLevel == 3)
+		{
+			Speed = 10;
+		}else if (Application.loadedLevel == 4)
+		{
+			Speed = 15;
+		}
+
 		TurnRight = true;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
+
+
+
 		if (TurnRight == true && Input.GetMouseButtonDown (0) && Game.gameObject == true) 
 		{
 			TurnRight = false;

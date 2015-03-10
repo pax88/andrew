@@ -18,9 +18,9 @@ public class MenyPlayerSC : MonoBehaviour {
 		transform.Rotate (0, RotationSpeed * Time.deltaTime, 0, Space.World);
 	}
 
-	public void LevelSelect()
+	public void SelectLevel(int Level)
 	{
-		Application.LoadLevel ("Levelselect");
+		Application.LoadLevel (Level);
 	}
 
 	public void MusicToggle()
