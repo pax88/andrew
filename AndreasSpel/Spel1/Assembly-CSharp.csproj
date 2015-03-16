@@ -47,14 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Imported\Fonts\Script\scriptTexttest.cs" />
-     <Compile Include="Assets\Scripts\PlayerDead.cs" />
-     <Compile Include="Assets\Scripts\PlayerMove.cs" />
-     <Compile Include="Assets\Scripts\SMALL\CameraSC.cs" />
-     <Compile Include="Assets\Scripts\SMALL\ChangeLevel.cs" />
-     <Compile Include="Assets\Scripts\SMALL\Deadpar.cs" />
-     <Compile Include="Assets\Scripts\SMALL\Game.cs" />
-     <Compile Include="Assets\Scripts\SMALL\MenyPlayerSC.cs" />
-     <Compile Include="Assets\Scripts\SMALL\StartText.cs" />
+     <Compile Include="Assets\Scripts\CamreaSC.cs" />
+     <Compile Include="Assets\Scripts\DeadparSC.cs" />
+     <Compile Include="Assets\Scripts\LoadSceenSc.cs" />
+     <Compile Include="Assets\Scripts\PlayerSC.cs" />
+     <Compile Include="Assets\Scripts\PlayerSpin.cs" />
+     <Compile Include="Assets\Scripts\StartTextSC.cs" />
      <None Include="Assets\Imported\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
      <None Include="Assets\Imported\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
  <Reference Include="UnityEngine.UI">
