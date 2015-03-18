@@ -9,6 +9,8 @@ public class PlayerSC : MonoBehaviour {
 	public int SmallTimer;
 	public ParticleSystem DeadPar;
 	public bool Dead;
+	public Transform PlayerObject;
+	 
 	// Use this for initialization
 	void Start () 
 	{
@@ -29,7 +31,7 @@ public class PlayerSC : MonoBehaviour {
 			Application.LoadLevel(Application.loadedLevel);
 		}
 
-		if (transform.position.y < 0) 
+		if (transform.position.y < 1.3) 
 		{
 			DeadFunction();
 		}
@@ -80,20 +82,22 @@ public class PlayerSC : MonoBehaviour {
 
 	void OnTriggerEnter (Collider Info)
 	{
-		if (Info.tag == "Deadly") 
+		if (Info.tag == "Deadly") {
+			DeadFunction ();
+		} else if (Info.tag == "Goal") 
 		{
-			DeadFunction();
+			Application.LoadLevel(Application.loadedLevel + 1);
 		}
 	}
 
 	void DeadFunction()
 	{
 		DeadPar.Play ();
-		Debug.Log("ehj");
 		Dead = true;
 		Destroy (GetComponent("Rigidbody"));
 		Destroy (GetComponent("CapsuleCollider"));
 		Destroy (GetComponent ("MeshRenderer"));
+		transform.position = PlayerObject.position + new Vector3 (0f, 0.1f, 0f);
 	}
 
 }
