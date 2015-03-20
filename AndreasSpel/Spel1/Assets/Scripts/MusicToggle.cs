@@ -8,20 +8,19 @@ public class MusicToggle : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-	
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		
+
 	}
 
 	public void MusictToggleFunction ()
 	{
 		if (Music == true) 
 		{
-			audio.PlayOneShot(BackgroundMusic, 7);
+			audio.PlayOneShot(BackgroundMusic, 5);
 			Music = false;
 		} else if (Music == false)
 		{

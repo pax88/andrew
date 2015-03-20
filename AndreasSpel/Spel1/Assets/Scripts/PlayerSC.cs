@@ -10,6 +10,7 @@ public class PlayerSC : MonoBehaviour {
 	public ParticleSystem DeadPar;
 	public bool Dead;
 	public Transform PlayerObject;
+	public GameObject Remember;
 	 
 	// Use this for initialization
 	void Start () 
@@ -38,20 +39,25 @@ public class PlayerSC : MonoBehaviour {
 
 
 
-
-		if (PlayGame == false && Input.GetMouseButtonDown(0))
+		if (Input.mousePosition.x > 50f)
 		{
-			PlayGame = true;
+			if (PlayGame == false && Input.GetMouseButtonDown(0))
+			{
+				PlayGame = true;
+			}
 		}
 
 
-
-		if (TurnRight == true && Input.GetMouseButtonDown (0)) 
+		Vector3 mousePosition = Input.mousePosition;
+		if (Input.mousePosition.x > 50f)
 		{
-			TurnRight = false;
-		} else if (Input.GetMouseButtonDown (0)) 
-		{
-			TurnRight = true;
+			if (TurnRight == true && Input.GetMouseButtonDown (0)) 
+			{
+				TurnRight = false;
+			} else if (Input.GetMouseButtonDown (0)) 
+			{
+				TurnRight = true;
+			}
 		}
 
 	}
@@ -92,6 +98,7 @@ public class PlayerSC : MonoBehaviour {
 
 	void DeadFunction()
 	{
+		DontDestroyOnLoad (Remember);
 		DeadPar.Play ();
 		Dead = true;
 		Destroy (GetComponent("Rigidbody"));
