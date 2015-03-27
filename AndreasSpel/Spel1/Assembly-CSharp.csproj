@@ -50,7 +50,6 @@
      <Compile Include="Assets\Scripts\CamreaSC.cs" />
      <Compile Include="Assets\Scripts\DeadparSC.cs" />
      <Compile Include="Assets\Scripts\LoadSceenSc.cs" />
-     <Compile Include="Assets\Scripts\MusicToggle.cs" />
      <Compile Include="Assets\Scripts\PlayerSC.cs" />
      <Compile Include="Assets\Scripts\PlayerSpin.cs" />
      <Compile Include="Assets\Scripts\StartTextSC.cs" />

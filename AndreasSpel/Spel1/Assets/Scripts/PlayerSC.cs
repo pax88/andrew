@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerSC : MonoBehaviour {
+public class PlayerSC : MonoBehaviour 
+{
 	public float PlayerSpeed;
 	public bool TurnRight;
 	public bool PlayGame;
@@ -21,6 +22,7 @@ public class PlayerSC : MonoBehaviour {
 		SmallTimer = 30;
 		PlayGame = false;
 		TurnRight = true;
+
 	}
 	
 	// Update is called once per frame
